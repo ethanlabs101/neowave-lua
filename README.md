@@ -133,4 +133,37 @@ sudo apt install luarocks -y
 ```html
 sudo luarocks install luafilesystem
 ```
+
+5. Launch NeoWave:
+```html
+lua ~/.config/neowave-lua/neowave.lua
+```
 > Arch's lua package currently provides lua 5.4
+
+## 🛠 Usage
+ - Preview configuration: see how colors, logos, and modules render in your terminal
+ - Apply configuration: save your settings to active Neofetch/Fastfetch config
+ - Revert configuration: restore from backup to undo changes
+
+*Advanced Options*
+ - Toggle OS and hardware spoofing
+ - Use custom ASCII/PNG/GIF logos
+ - Modify colors dynamically via Lua tables in colors/
+
+---
+
+## 💻 Contributing
+
+NeoWave Lua is open for contributions! You can help by:
+ - Adding new ASCII, PNG, or GIF logos
+ - Expanding fully customized presets
+ - Creating new info modules
+ - Optimizing rendering and menu interaction
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see [LICENSE]() for details.
+
+> NeoWave Lua is designed for educational, customization, and system exploration purposes. Use responsibly.

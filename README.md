@@ -24,15 +24,20 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 
 ## 💎 Features
 
-- Custom ASCII art support: Add your own .ascii files to the ascii/custom/ folder.
-- Dynamic distro previews: Previews are live when selecting a distro from ascii/distros/.  
-- Color presets: Fully configurable via colors/ folder (`red.sh`, blue.sh, etc.)  
-- Module overrides: Control which info modules are displayed and their formatting.  
-- Backup & restore: Original Neofetch configs saved in stock_configs/.  
+- Module overrides: Control which info modules are displayed and their formatting.    
 - Legacy support: Fully documents Bash version differences; Lua version adds flexibility and polish.  
-- Fastfetch ready: Designed to integrate or adapt with Fastfetch later.
-- PNG & GIF logo support: via optional external renderers (chafa,viu), allowing images to be converted into high-quality ANSI/Unicode output for terminal display with auto fallback to ASCII.
-- OS & Component Spoofing: Optional OS/Hardware display overrides for screenshots, demos, theming, and privacy. Fully reversible and applied only at config level.
+- Fastfetch ready: Designed to integrate or adapt with Fastfetch.
+- Custom ASCII, PNG, and GIF logos – fully displayable in the terminal with live resizing and color adaptation.
+- OS & system component spoofing – fake your OS, CPU, GPU, and memory stats for testing or demos, with the ability to revert to real values.
+- Dynamic color tables – define your own palettes for ASCII, PNG/GIF logos, and info modules directly in Lua; no external color preset files required.
+- Modular info modules – toggle which system info to display (CPU, memory, disk, network, etc.) per session.
+- Preview, Apply, and Revert – safely test changes, apply your configuration, or revert to the original Neofetch config.
+- Backup system – automatically saves the original Neofetch config and previous NeoWave configs for full safety.
+- Custom logo support – easily add your own logos to ~/.config/neowave/ascii/custom and select them on demand.
+- Flexible alignment & right-side display – control info width, alignment, and spacing for a polished terminal layout.
+- Cross-distro compatible – works on any Linux distro running Neofetch or Fastfetch.
+- Lightweight & scriptable – fully written in Lua for speed, readability, and easy customization.
+
 
 ---
 
@@ -46,3 +51,22 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 ---
 
 ## 📂 File Structure
+
+- ~/.config/neowave-lua/
+- ├── ascii/                     # ASCII logos
+- │   ├── custom/                # User-added custom ASCII logos
+- │   └── distro/                # Live previews for distro logos
+- ├── backup/                    # Automatically saved previous configs
+- ├── colors/                    # Optional Lua tables for color palettes
+- ├── core/                      # Core engine scripts (Lua modules)
+- │   ├── engine.lua             # Everything: apply, backup, colors, logos, state
+- │   └── menu.lua               # CLI menu interface
+- ├── data/                      
+- │   └── distros.db             # Table of applicable stock distros
+- ├── profiles/                  
+- ├── stock_configs/             
+- ├── theme/                     
+- ├── neowave.lua                # Entrypoint script; run neowave from terminal
+- └── README.md                  # You are here!
+
+---

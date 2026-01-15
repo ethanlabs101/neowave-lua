@@ -86,7 +86,7 @@ sudo apt install chafa viu caca-utils -y
 - │   └── engine.lua             # Everything: apply, backup, colors, logos, state
 - ├── menu.lua                   # CLI menu interface
 - ├── data/                      
-- │   └── distros.db             # Table of applicable stock distros
+- │   └── distros.lua             # Table of applicable stock distros
 - ├── profiles/                  
 - ├── stock_configs/             
 - ├── theme/                     

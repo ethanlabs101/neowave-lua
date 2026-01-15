@@ -187,4 +187,15 @@ The Lua version isn’t just a port — it’s a modular, future-proof engine. I
 
 This project is licensed under the MIT License — see [LICENSE](https://github.com/ethanlabs101/neowave-lua/blob/main/LICENSE) for details.
 
+---
+
+## 🌐 Contact
+
+[![GitHub](https://img.shields.io/badge/GitHub-ethanlabs101-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ethanlabs101)
+[![Email](https://img.shields.io/badge/Email-ProtonMail-blue?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:ethanlabs101@proton.me)
+[![Discord](https://img.shields.io/badge/Discord-Chat-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1460827490762363001)
+[![Instagram](https://img.shields.io/badge/Instagram-ethanlabs101-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ethanlabs101/)
+
+---
+
 > NeoWave Lua is designed for educational, customization, and system exploration purposes. Use responsibly.

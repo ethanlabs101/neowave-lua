@@ -83,10 +83,15 @@ sudo apt install chafa viu caca-utils -y
 - ├── backup/                    # Automatically saved previous configs
 - ├── colors/                    # Optional Lua tables for color palettes
 - ├── core/                      # Core engine scripts (Lua modules)
+- │   ├── ascii.lua              # ASCII Loader and renderer (Populates data/ascii/)
 - │   └── engine.lua             # Everything: apply, backup, colors, logos, state
 - ├── menu.lua                   # CLI menu interface
 - ├── data/                      
-- │   └── distros.lua             # Table of applicable stock distros
+- │   ├──distros.lua             # Table of applicable stock distros(EVERY applicable distro included)
+- │   └── ascii/                 # ASCII cache folder
+- │     ├──arch.txt
+- │     ├──ubuntu.txt
+- │     └── etc...      
 - ├── profiles/                  
 - ├── stock_configs/             
 - ├── theme/                     

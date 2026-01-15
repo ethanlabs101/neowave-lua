@@ -24,9 +24,9 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 
 ## 💎 Features
 
-- Module overrides: Control which info modules are displayed and their formatting.    
+- Module overrides: Control which info modules are displayed and their formatting.
+- Contains every neofetch distro logo and variants including, small, old, and ubuntu varieties.    
 - Legacy support: Fully documents Bash version differences; Lua version adds flexibility and polish.  
-- Fastfetch ready: Designed to integrate or adapt with Fastfetch.
 - Custom ASCII, PNG, and GIF logos – fully displayable in the terminal with live resizing and color adaptation.
 - OS & system component spoofing – fake your OS, CPU, GPU, and memory stats for testing or demos, with the ability to revert to real values.
 - Dynamic color tables – define your own palettes for ASCII, PNG/GIF logos, and info modules directly in Lua; no external color preset files required.
@@ -83,8 +83,8 @@ sudo apt install chafa viu caca-utils -y
 - ├── backup/                    # Automatically saved previous configs
 - ├── colors/                    # Optional Lua tables for color palettes
 - ├── core/                      # Core engine scripts (Lua modules)
-- │   ├── engine.lua             # Everything: apply, backup, colors, logos, state
-- │   └── menu.lua               # CLI menu interface
+- │   └── engine.lua             # Everything: apply, backup, colors, logos, state
+- ├── menu.lua                   # CLI menu interface
 - ├── data/                      
 - │   └── distros.db             # Table of applicable stock distros
 - ├── profiles/                  

@@ -55,17 +55,23 @@ sudo pacman -Syu
   ```
 
 - Install chafa, viu, and caca-utils (img2txt)
-  ```html
-  copy
-  sudo pacman -S chafa viu caca-utils
+```html
+copy
+sudo pacman -S chafa viu caca-utils
   ```
 
 *Ubuntu / Debian*
 - Update your package list
-- ```sudo apt update```
+```html
+copy
+sudo apt update
+```
 
 - Install chafa, viu, and caca-utils (img2txt)
-- ```sudo apt install chafa viu caca-utils -y```
+```html
+copy
+sudo apt install chafa viu caca-utils -y
+```
 
 
 > If none are installed NeoWave automatically falls back to standard ASCII logos.

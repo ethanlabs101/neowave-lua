@@ -164,6 +164,6 @@ NeoWave Lua is open for contributions! You can help by:
 
 ## 📄 License
 
-This project is licensed under the MIT License — see [LICENSE]() for details.
+This project is licensed under the MIT License — see [LICENSE](https://github.com/ethanlabs101/neowave-lua/blob/main/LICENSE) for details.
 
 > NeoWave Lua is designed for educational, customization, and system exploration purposes. Use responsibly.

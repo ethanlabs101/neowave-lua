@@ -90,8 +90,46 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 
 ## ⚡ Installation
 
-- i. Clone This repo
+- 1. Clone This repo
 
 ```html
 copy
 git clone https://github.com/ethanlabs101/neowave-lua.git ~/.config/neowave-lua
+```
+- 2. Optional - Install Dependencies for PNG/GIF render support (see dependencies)
+ 
+- 3. Install lua (5.4)
+
+*Arch / Manjaro*
+ ```html
+copy
+sudo pacman -Syu lua
+```
+*Ubuntu / Debian*
+```html
+copy
+sudo apt update
+sudo apt install lua5.4
+```
+- 4. Install luarocks / luafilesystem (for read/write config purposes)
+
+ *Arch / Manjaro*
+ ```html
+copy
+sudo pacman -Syu luarocks
+```
+```html
+copy
+sudo luarocks install luafilesystem
+```
+*Ubuntu / Debian*
+```html
+copy
+sudo apt update
+sudo apt install luarocks -y
+```
+```html
+copy
+sudo luarocks install luafilesystem
+```
+> Arch's lua package currently provides lua 5.4

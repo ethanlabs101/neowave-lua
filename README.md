@@ -61,6 +61,14 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 - Install chafa, viu, and caca-utils (img2txt)
 ```sudo apt install chafa viu caca-utils -y```
 
+### Install Dependencies
+
+Arch / Manjaro
+
+```bash
+sudo pacman -Syu
+sudo pacman -S chafa viu caca-utils
+
 > If none are installed NeoWave automatically falls back to standard ASCII logos.
 
 ---

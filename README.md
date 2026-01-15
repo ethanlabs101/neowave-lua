@@ -1,6 +1,6 @@
 # NeoWave Lua 🌊
 
-![NeoWave Banner](https://via.placeholder.com/800x150/000000/ffffff?text=NeoWave+Lua+Terminal+Vibes)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/ethanlabs101/neowave-lua)

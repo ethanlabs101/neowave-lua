@@ -175,7 +175,7 @@ NeoWave Lua is open for contributions! You can help by:
 | **Fast Fetch / Expansion**| Limited                                                | Structured for future Fastfetch support, easy to extend                               |
 | Backup & Revert       | Manual backups of neofetch configs                    | Automatic backup & revert system for original configs                                 |
 | File Structure        | Complex: multiple shell scripts scattered in subfolders | Simplified modular Lua structure, easier to maintain                                  |
-| Extensibility         | Hard to extend, requires Bash knowledge              | Easy to extend with Lua, can integrate new terminal features, PNG/GIF, OS spoofing, modules |
+| Extensibility         | Hard to extend, requires deep Bash knowledge              | Easy to extend with Lua, can integrate new terminal features, PNG/GIF, OS spoofing, modules |
 - *See Legacy Bash Version:*
 - [Neowave Bash Legacy]()
 > Summary:

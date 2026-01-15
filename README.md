@@ -68,5 +68,6 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 - ├── theme/                     
 - ├── neowave.lua                # Entrypoint script; run neowave from terminal
 - └── README.md                  # You are here!
+> Note: Unlike the Bash version, Lua does not require a temporary config file. All tables and memory-based settings are handled dynamically.
 
 ---

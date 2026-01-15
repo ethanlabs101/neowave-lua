@@ -90,7 +90,7 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 
 ## ⚡ Installation
 
-- 1. Clone This repo
+ 1. Clone This repo
 
 ```html
 copy

@@ -177,7 +177,7 @@ NeoWave Lua is open for contributions! You can help by:
 | File Structure        | Complex: multiple shell scripts scattered in subfolders | Simplified modular Lua structure, easier to maintain                                  |
 | Extensibility         | Hard to extend, requires deep Bash knowledge              | Easy to extend with Lua, can integrate new terminal features, PNG/GIF, OS spoofing, modules |
 - *See Legacy Bash Version:*
-- [Neowave Bash Legacy]()
+- [Neowave Bash Legacy](https://github.com/ethanlabs101/neowave-bash-legacy)
 > Summary:
 The Lua version isn’t just a port — it’s a modular, future-proof engine. It keeps everything from the Bash version but adds live previews, better color handling, OS/spec spoofing, PNG/GIF support, module toggling, and automated backup/revert. Bash was great for legacy experimentation, but Lua is the clean, maintainable, and fully extensible successor.
 

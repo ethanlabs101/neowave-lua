@@ -50,26 +50,22 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 *Arch / Manjaro*
 - Update your system first
 ```html
-copy
 sudo pacman -Syu
   ```
 
 - Install chafa, viu, and caca-utils (img2txt)
 ```html
-copy
 sudo pacman -S chafa viu caca-utils
   ```
 
 *Ubuntu / Debian*
 - Update your package list
 ```html
-copy
 sudo apt update
 ```
 
 - Install chafa, viu, and caca-utils (img2txt)
 ```html
-copy
 sudo apt install chafa viu caca-utils -y
 ```
 
@@ -105,7 +101,6 @@ sudo apt install chafa viu caca-utils -y
  1. Clone This repo
 
 ```html
-copy
 git clone https://github.com/ethanlabs101/neowave-lua.git ~/.config/neowave-lua
 ```
 2. Optional - Install Dependencies for PNG/GIF render support (see dependencies)
@@ -114,12 +109,10 @@ git clone https://github.com/ethanlabs101/neowave-lua.git ~/.config/neowave-lua
 
 *Arch / Manjaro*
  ```html
-copy
 sudo pacman -Syu lua
 ```
 *Ubuntu / Debian*
 ```html
-copy
 sudo apt update
 sudo apt install lua5.4
 ```
@@ -127,21 +120,17 @@ sudo apt install lua5.4
 
  *Arch / Manjaro*
  ```html
-copy
 sudo pacman -Syu luarocks
 ```
 ```html
-copy
 sudo luarocks install luafilesystem
 ```
 *Ubuntu / Debian*
 ```html
-copy
 sudo apt update
 sudo apt install luarocks -y
 ```
 ```html
-copy
 sudo luarocks install luafilesystem
 ```
 > Arch's lua package currently provides lua 5.4

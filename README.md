@@ -46,7 +46,7 @@ NeoWave Lua is a modular terminal system tool for Neofetch/Fastfetch customizati
 - chafa
 - viu
 - img2txt
-  > If none are installed NeoWave automatically falls back to standard ASCII logos.
+> If none are installed NeoWave automatically falls back to standard ASCII logos.
 
 ---
 

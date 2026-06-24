@@ -2,6 +2,8 @@
 
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
 
+# Code + Installer coming soon!
+
 > **Modular terminal customization engine for Neofetch & Fastfetch.**  
 > The Lua successor to the legacy Bash NeoWave — built for flexibility, safety, and cross-distro polish.
  

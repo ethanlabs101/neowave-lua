@@ -1,4 +1,4 @@
-# NeoWave Lua 🌊
+![Neowave Lua Banner](https://github.com/ethanlabs101/neowave-lua/blob/main/git-media/neowave-lua.png)
 
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
 

@@ -8,6 +8,10 @@
 
 ## Preview
 
+![](https://github.com/ethanlabs101/neowave-lua/blob/main/git-media/neowave-20261109-212959.gif)
+
+> GIF exporting (Fetch config + StaticFX animation)
+
 ![](https://github.com/ethanlabs101/neowave-lua/blob/main/git-media/neowave-lua-matrix.png)
 ![](https://github.com/ethanlabs101/neowave-lua/blob/main/git-media/neowave-lua-matrix-arch.png)
 ![](https://github.com/ethanlabs101/StaticFX/blob/main/assets/neowave-lua-flex.png)

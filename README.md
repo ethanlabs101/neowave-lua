@@ -6,6 +6,12 @@
 
 ***I'm currently working on this (11/09/2026)***
 
+## Preview
+
+![]()
+![]()
+![]()
+
 > **Modular terminal customization engine for Neofetch & Fastfetch.**  
 > The Lua successor to the legacy Bash NeoWave — built for flexibility, safety, and cross-distro polish.
  

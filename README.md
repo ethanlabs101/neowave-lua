@@ -9,7 +9,7 @@
 ## Preview
 
 ![](https://github.com/ethanlabs101/neowave-lua/blob/main/git-media/neowave-lua-matrix.png)
-![]()
+![](https://github.com/ethanlabs101/neowave-lua/blob/main/git-media/neowave-lua-matrix-arch.png)
 ![]()
 
 > **Modular terminal customization engine for Neofetch & Fastfetch.**  

@@ -10,7 +10,7 @@
 
 ![](https://github.com/ethanlabs101/neowave-lua/blob/main/git-media/neowave-lua-matrix.png)
 ![](https://github.com/ethanlabs101/neowave-lua/blob/main/git-media/neowave-lua-matrix-arch.png)
-![]()
+![](https://github.com/ethanlabs101/StaticFX/blob/main/assets/neowave-lua-flex.png)
 
 > **Modular terminal customization engine for Neofetch & Fastfetch.**  
 > The Lua successor to the legacy Bash NeoWave — built for flexibility, safety, and cross-distro polish.
